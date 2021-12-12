@@ -539,25 +539,17 @@ thu = await hexa.getStatus(`${sender.split('@')[0]}@s.whatsapp.net`, MessageType
 menuh = `${ucapanWaktu} 𝐊𝐚𝐤 @${sender.split("@")[0]}`
 hexa.sendMessage(from, { contentText: `${menuh}`, footerText: `
 *──────" 𝕭𝖔𝖙 𝕴𝖓𝖋𝖔 "──────*
- 👤OWNER : *https://wa.me/6287705048235*
- 💌EMAIL : *tesheroku123@gmail.com*
- 🔎YT : *https://bit.ly/3BpBe1Z*
- 🪀GROUP : *https://bit.ly/3Ene2TO*
 
 Runtime : *${runtime(process.uptime())}*
 Tanggal *${date}*
 
-メLord Akira⁴̅⁰͍⁴̵
+メasxgaz⁴̅⁰͍⁴̵
 ̵`, buttons: [{ buttonId: `${prefix}allmenu`, buttonText: { displayText: 'メ MENU' }, type: 1 }], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: tamnel, contextInfo: {mentionedJid: [sender, owner]}}}, 'buttonsMessage')
 break
 case 'allmenu':
 hexa.sendMessage(from, {"contentText": `Hai Kak *${pushname}* ${ucapanWaktu}
 
-*──────" 𝕭𝖔𝖙 𝕴𝖓𝖋𝖔 "──────*
- 👤OWNER : *https://wa.me/6287705048235*
- 💌EMAIL : *tesheroku123@gmail.com*
- 🔎YT : *https://bit.ly/3BpBe1Z*
- 🪀GROUP : *https://bit.ly/3Ene2TO*
+*──────" 𝕭𝖔𝖙 "──────*
 
 Runtime : *${runtime(process.uptime())}*
 Tanggal *${date}*
